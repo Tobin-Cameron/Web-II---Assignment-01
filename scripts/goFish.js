@@ -29,6 +29,30 @@ function Deck() {
   console.table(this.cards);
 }
 
+function Game() {
+  // has Deck
+  // has two+ Players
+  //  -- > Players' Hands draw the first cards
+  // turn function?
+  //  --> checks for pairs at end of turn
+}
+
+// _isComputer controls whether "smart asking logic" is used
+function Player(_isComputer) {
+  // owns a Hand
+  // check for pairs
+  // ask other player for card
+  // draw card
+}
+
+function Hand() {
+  // owns Cards
+  // draw a card function
+  // play a card function ? maybe something else would control that
+  //  --> or "remove a card"
+  //
+}
+
 const suitsArray = ["Hearts", "Diamonds", "Clubs", "Spades"];
 const rankArray = ["Ace", 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King"];
 
